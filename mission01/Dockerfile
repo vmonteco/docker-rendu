@@ -22,4 +22,5 @@ ENV PS1="login@42born2code:/# "
 RUN echo "Hello World" > /srv/http/index.html
 RUN echo "ServerName 192.168.59.103" >> /etc/httpd/conf/httpd.conf
 RUN systemctl enable httpd
-ENTRYPOINT ["/usr/sbin/httpd", "-DFOREGROUND"]
+# ENTRYPOINT ["/usr/sbin/httpd", "-DFOREGROUND"]
+CMD ["/usr/sbin/httpd", "-DFOREGROUND"]

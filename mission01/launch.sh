@@ -4,12 +4,23 @@
 boot2docker up
 
 # Localhost port forwarding (ssh tunnelng) :
-boot2docker ssh -L 8080:localhost:80
+boot2docker ssh -L 8080:localhost:80 &
 
 # Get base/archlinux
-docker pull base/archlinux
+#NB : Useless.
+#docker pull base/archlinux
 
 # Building image.
 docker build -t hello/world:v42 .
 
 # Launch .
+# webserver
+docker run -d -p 80:80 hello/world:v42
+# ssh tunnelng
+boot2docker ssh -L 8080:localhost:80 &
+
+# sh
+docker run -ti -P hello/world:v42 sh
+
+# Test.
+firefox http://localhost:8080
