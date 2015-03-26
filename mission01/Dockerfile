@@ -1,7 +1,10 @@
 # Hello world!!!
 
 # Base image :
-FROM base/archlinux
+# For x32 systems.
+FROM archlinux
+# For x64 systems.
+# FROM base/archlinux
 
 # Maintainer :
 MAINTAINER Vincent Montecot <vmonteco@student.42.fr>
