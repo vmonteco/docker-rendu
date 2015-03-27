@@ -2,9 +2,9 @@
 
 # Base image :
 # For x32 systems.
-FROM archlinux
+# FROM archlinux
 # For x64 systems.
-# FROM base/archlinux
+FROM base/archlinux
 
 # Maintainer :
 MAINTAINER Vincent Montecot <vmonteco@student.42.fr>
