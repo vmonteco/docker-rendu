@@ -25,12 +25,13 @@ RUN cat /home/login/.ssh/mykey.pub >> /home/login/.ssh/authorized_keys
 # Permissions :
 RUN chmod -Rv 755 /home/login
 RUN chmod -Rv 600 /home/login/.ssh/authorized_keys
+RUN chown -Rv login /home/login
 
 # config ssh :
 #RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 #RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd
-ENV NOTVISIBLE "in users profile"
-RUN echo "export VISIBLE=now" >> /etc/profile
+#ENV NOTVISIBLE "in users profile"
+#RUN echo "export VISIBLE=now" >> /etc/profile
 
 # Set ssh up.
 RUN echo 'root:screencast' | chpasswd
