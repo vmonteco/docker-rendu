@@ -10,4 +10,4 @@ docker build -t docker/mission02:ssh .
 docker run -p 10022:42 -d docker/mission02:ssh
 
 # boot2docker ssh tunneling.
-#boot2docker ssh -L 10022:localhost:10022
+boot2docker ssh -L 10022:localhost:10022

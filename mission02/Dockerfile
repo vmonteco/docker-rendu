@@ -32,14 +32,11 @@ RUN chmod -Rv 600 /home/login/.ssh/authorized_keys
 # Set ssh up.
 RUN echo 'root:screencast' | chpasswd
 RUN ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key
-#RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_ecdsa_key
-#RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_ecdsa_key
-#RUN ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key
 RUN systemctl enable sshd
 RUN /usr/sbin/sshd
 
 # Choose ports to expose
 EXPOSE 42
 
-# Set Entrypoint to start sshd
+# Set Entrypoint/cmd to start sshd
 CMD ["/usr/sbin/sshd", "-D"]
