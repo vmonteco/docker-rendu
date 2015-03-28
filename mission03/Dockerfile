@@ -8,4 +8,4 @@ MAINTAINER vincent montecot <vincent.montecot@hotmail.fr>
 RUN pacman -Suy --noconfirm
 
 # Volume :
-VOLUME ["/volume"]
+# VOLUME ["/volume"]
