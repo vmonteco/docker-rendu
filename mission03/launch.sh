@@ -18,10 +18,10 @@ boot2docker ssh "sudo mkdir /Users; sudo mount -t vboxsf users /Users"
 docker pull base/archlinux
 
 # building
-docker build -t volumes .
+# docker build -t volumes .
 
 # running the container :
-docker run  -ti --rm -v /share/test:/share -v /Users:/Users base/archlinux sh
+docker run  -ti --rm -v /share:/share -v /Users:/Users base/archlinux sh
 
 # umount and remove dir
 boot2docker ssh "sudo umount /share; sudo rmdir /share"
