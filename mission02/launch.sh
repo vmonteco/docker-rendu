@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 # Delete ~/.ssh/known_hosts
 rm ~/.ssh/known_hosts
 

@@ -8,6 +8,12 @@ FROM base/archlinux
 MAINTAINER vincent montecot <vincent.montecot@hotmail.fr>
 
 # Upgrading system.
+RUN pacman-db-upgrade 
+RUN timeout -s 9 10 cat /dev/urandom > /dev/zero || true
+RUN pacman-key --init
+RUN pacman-key --populate archlinux
+RUN pacman -Syy --noconfirm archlinux-keyring
+RUN pacman-db-upgrade 
 RUN pacman -Suy --noconfirm && pacman-db-upgrade && pacman -S --noconfirm openssh
 
 # Create user
