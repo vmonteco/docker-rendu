@@ -4,4 +4,4 @@
 docker build -t dockerimage .
 
 # run :
-docker run dockerimage
+docker run -privileged -ti dockerimage
