@@ -25,7 +25,10 @@ RUN pacman-db-upgrade && pacman -Suy --noconfirm apache emacs zsh lynx
 EXPOSE 80
 
 # Modifying the prompt :
+# litteral :
 ENV PS1="login@42born2code:/# "
+# rendered :
+# ENV PS1="%n@42born2code:/# "
 
 # Adding default webpage :
 RUN echo "Hello World" > /srv/http/index.html
