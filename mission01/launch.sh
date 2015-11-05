@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Launch boot2docker
-boot2docker up
-
 # Building image.
 docker build -t hello/world:v42 .
 
