@@ -8,4 +8,4 @@ open http://localhost:8080
 open http://$(docker-machine ip default)
 
 # sh
-docker run -ti -p 80:80 hello/world:v42 /root/start
+docker run -ti -u login -h "42born2code" -p 8080:10080 hello/world:v42 /home/login/start
