@@ -1,11 +1,11 @@
 # Hypnose container
 
 # For x64 systems.
-#FROM base/archlinux
+FROM base/archlinux
 # For x32 systems.
 #FROM archlinux
 # For rapsberry pi.
-FROM ygrenzinger/archlinux-arm
+#FROM ygrenzinger/archlinux-arm
 
 # Installing system.
 

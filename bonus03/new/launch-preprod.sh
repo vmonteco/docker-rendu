@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -x
+
 NAME=$1
 
 IMAGENAME=$NAME
@@ -8,7 +10,7 @@ IMAGENAME=$NAME
 BASEIN="/srv/http/www"
 BASEOUT=/$IMAGENAME
 
-echo $BASEVM
+echo $BASEOUT
 
 # Container ports :
 PORTS="-p 10081:80"
@@ -17,27 +19,27 @@ PORTS="-p 10081:80"
 # Database :
 DBINDIR=$BASEIN"/data"
 DBIN=$DBINDIR"/db.sqlite3"
-DBOUTDIR=$BASEVM"/data"
+DBOUTDIR=$BASEOUT"/data"
 DBOUT=$DBOUTDIR"/db.sqlite3"
 
 # Media files
 MEDIAIN=$BASEIN"/media"
-MEDIAOUT=$BASEVM"/media"
+MEDIAOUT=$BASEOUT"/media"
 
 # SRC :
 SRCIN=$BASEIN"/htdocs"
-SRCOUT=$BASEVM"/htdocs"
+SRCOUT=$BASEOUT"/htdocs"
 
 # Conf :
 # CONFIN=$BASEIN"/server/httpd-app.conf"
-# CONFOUT="$BASEVM/server/httpd-app.conf"
+# CONFOUT="$BASEOUT/server/httpd-app.conf"
 CONFIN="/etc/httpd/conf/httpd.conf"
-CONFOUT=$BASEVM"/server/preprod.httpd.conf"
+CONFOUT=$BASEOUT"/server/preprod.httpd.conf"
 
 
 # Logs :
 LOGSIN=$BASEIN"/logs"
-LOGSOUT=$BASEVM"/logs"
+LOGSOUT=$BASEOUT"/logs"
 
 # Container volumes :
 #DBVOL="-v "$DBOUTDIR":"$DBINDIR
@@ -45,7 +47,7 @@ LOGSOUT=$BASEVM"/logs"
 CONFVOL="-v $CONFOUT:$CONFIN"
 LOGSVOL="-v $LOGSOUT:$LOGSIN"
 #VOLUMES=$DBVOL $SRCVOL $CONFVOL
-BASEVOL="-v $BASEVM:$BASEIN"
+BASEVOL="-v $BASEOUT:$BASEIN"
 SRCVOL="-v $SRCOUT:$SRCIN"
 DBVOL="-v $DBOUT:$DBIN"
 MEDIAVOL="-v $MEDIAOUT:$MEDIAIN"
