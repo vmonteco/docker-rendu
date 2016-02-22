@@ -1,0 +1,10 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+<a href="/add">Add a citation.</a>
+<hr />
+{% for citation in citations %}
+{% include "main/citation.html" with citation=citation %}
+<hr />
+{% endfor %}
+{% endblock %}
