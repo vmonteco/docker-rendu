@@ -14,6 +14,7 @@ fi
 VBoxManage sharedfolder add $MACHINE --name $IMAGE --hostpath $SHAREDIR
 
 docker-machine start $MACHINE
+eval '$(docker-machine env $MACHINE)'
 docker-machine ssh $MACHINE "sudo mkdir /$IMAGE; sudo mount -t vboxsf $IMAGE /$IMAGE"
 #docker-machine ssh $MACHINE
 
@@ -29,3 +30,4 @@ docker-machine stop $MACHINE
 VBoxManage sharedfolder remove default --name $IMAGE
 
 docker-machine start $MACHINE
+eval '$(docker-machine env $MACHINE)'
