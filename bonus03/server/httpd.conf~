@@ -268,7 +268,7 @@ Alias /static/ /srv/http/www/htdocs/static_files/
 # WSGI
 #
 
-WSGIDaemonProcess bonus03 python-path=/srv/http/www/htdocs
+WSGIDaemonProcess hypnose python-path=/srv/http/www/htdocs
 WSGIScriptAlias / /srv/http/www/htdocs/djangoexample/wsgi.py
 
 

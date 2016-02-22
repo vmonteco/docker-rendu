@@ -1,15 +1,16 @@
 #!/bin/sh
 
+set -x
+
 NAME=$1
 
-IMAGENAME=bonus03
+IMAGENAME=$NAME
 
 # Base directories :
 BASEIN="/srv/http/www"
-BASEVM=/$IMAGENAME
-BASEOUT=$(pwd)
+BASEOUT=/$IMAGENAME
 
-echo $BASEVM
+echo $BASEOUT
 
 # Container ports :
 PORTS="-p 10081:80"
@@ -18,27 +19,27 @@ PORTS="-p 10081:80"
 # Database :
 DBINDIR=$BASEIN"/data"
 DBIN=$DBINDIR"/db.sqlite3"
-DBOUTDIR=$BASEVM"/data"
+DBOUTDIR=$BASEOUT"/data"
 DBOUT=$DBOUTDIR"/db.sqlite3"
 
 # Media files
 MEDIAIN=$BASEIN"/media"
-MEDIAOUT=$BASEVM"/media"
+MEDIAOUT=$BASEOUT"/media"
 
 # SRC :
 SRCIN=$BASEIN"/htdocs"
-SRCOUT=$BASEVM"/htdocs"
+SRCOUT=$BASEOUT"/htdocs"
 
 # Conf :
 # CONFIN=$BASEIN"/server/httpd-app.conf"
-# CONFOUT="$BASEVM/server/httpd-app.conf"
+# CONFOUT="$BASEOUT/server/httpd-app.conf"
 CONFIN="/etc/httpd/conf/httpd.conf"
-CONFOUT=$BASEVM"/server/preprod.httpd.conf"
+CONFOUT=$BASEOUT"/server/preprod.httpd.conf"
 
 
 # Logs :
 LOGSIN=$BASEIN"/logs"
-LOGSOUT=$BASEVM"/logs"
+LOGSOUT=$BASEOUT"/logs"
 
 # Container volumes :
 #DBVOL="-v "$DBOUTDIR":"$DBINDIR
@@ -46,7 +47,7 @@ LOGSOUT=$BASEVM"/logs"
 CONFVOL="-v $CONFOUT:$CONFIN"
 LOGSVOL="-v $LOGSOUT:$LOGSIN"
 #VOLUMES=$DBVOL $SRCVOL $CONFVOL
-BASEVOL="-v $BASEVM:$BASEIN"
+BASEVOL="-v $BASEOUT:$BASEIN"
 SRCVOL="-v $SRCOUT:$SRCIN"
 DBVOL="-v $DBOUT:$DBIN"
 MEDIAVOL="-v $MEDIAOUT:$MEDIAIN"
@@ -60,19 +61,21 @@ SHELL="--rm -ti"
 DAEMON="-d"
 # Default
 DEFAULT=$DAEMON
-#DEFAULT=$SHELL
+DEFAULT=$SHELL
 
 # Building docker image.
 #docker build -t $NAME .
 
 # creating files if it doesn't exist.
-mkdir -p $DBOUTDIR
-touch $DBOUT
-mkdir -p $LOGSOUT
+echo "toto"
+docker-machine ssh default "sudo mkdir -p $DBOUTDIR"
+docker-machine ssh default "sudo touch $DBOUT"
+docker-machine ssh default "sudo mkdir -p $LOGSOUT"
 
 
-CMD="docker run $DEFAULT $OTHER $PORTS $VOLUMES $IMAGENAME"
+CMD="docker run $DEFAULT $OTHER $PORTS $VOLUMES $IMAGENAME zsh"
 
 # Running site :
 echo $CMD
+docker-machine status default
 $CMD

@@ -2,7 +2,7 @@
 	ProxyPreserveHost On
 	ProxyRequests Off
 	ServerName localhost
-	ServerAlias 192.168.99.100 127.0.0.1
+	ServerAlias 192.168.99.100
 	ProxyPass / http://0.0.0.0:10080/
 	ProxyPassReverse / http://0.0.0.0:10080/
 	ServerAdmin foo@bar.fr

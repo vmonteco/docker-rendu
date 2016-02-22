@@ -1,0 +1,179 @@
+[Mon Feb 22 16:44:55.781723 2016] [lbmethod_heartbeat:notice] [pid 1:tid 139658218928000] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 16:44:55.942899 2016] [mpm_event:notice] [pid 1:tid 139658218928000] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 16:44:55.947948 2016] [core:notice] [pid 1:tid 139658218928000] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 16:52:38.632921 2016] [mpm_event:notice] [pid 1:tid 139658218928000] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 17:01:27.282365 2016] [lbmethod_heartbeat:notice] [pid 7:tid 140382171670400] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 17:01:27.286746 2016] [mpm_event:notice] [pid 7:tid 140382171670400] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 17:01:27.294055 2016] [core:notice] [pid 7:tid 140382171670400] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 17:02:15.222560 2016] [wsgi:error] [pid 11:tid 140381844879104] [client 192.168.99.1:59394] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:06:36.797092 2016] [wsgi:error] [pid 10:tid 140381928806144] [client 192.168.99.1:59421] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:06:43.101278 2016] [wsgi:error] [pid 9:tid 140381794522880] [client 192.168.99.1:59423] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:06:47.583951 2016] [wsgi:error] [pid 9:tid 140381920413440] [client 192.168.99.1:59423] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:07:00.123155 2016] [mpm_event:notice] [pid 7:tid 140382171670400] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 17:07:29.733686 2016] [lbmethod_heartbeat:notice] [pid 115:tid 140499140818816] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 17:07:29.739870 2016] [mpm_event:notice] [pid 115:tid 140499140818816] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 17:07:29.745174 2016] [core:notice] [pid 115:tid 140499140818816] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 17:07:43.741818 2016] [wsgi:error] [pid 118:tid 140498916341504] [client 192.168.99.1:59431] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:08:10.863859 2016] [mpm_event:notice] [pid 115:tid 140499140818816] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 17:22:51.927141 2016] [lbmethod_heartbeat:notice] [pid 6:tid 140060125939584] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 17:22:51.929425 2016] [mpm_event:notice] [pid 6:tid 140060125939584] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 17:22:51.935592 2016] [core:notice] [pid 6:tid 140060125939584] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 17:23:00.259971 2016] [mpm_event:notice] [pid 6:tid 140060125939584] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 17:23:53.907086 2016] [lbmethod_heartbeat:notice] [pid 122:tid 140238102644608] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 17:23:53.915957 2016] [mpm_event:notice] [pid 122:tid 140238102644608] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 17:23:53.938719 2016] [core:notice] [pid 122:tid 140238102644608] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 17:23:56.233958 2016] [mpm_event:notice] [pid 122:tid 140238102644608] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 17:23:57.879925 2016] [lbmethod_heartbeat:notice] [pid 226:tid 139899619325824] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 17:23:57.884299 2016] [mpm_event:notice] [pid 226:tid 139899619325824] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 17:23:57.888283 2016] [core:notice] [pid 226:tid 139899619325824] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 17:24:39.206439 2016] [wsgi:error] [pid 228:tid 139899448665856] [client 192.168.99.1:59883] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:31:14.786703 2016] [wsgi:error] [pid 229:tid 139899315394304] [client 192.168.99.1:59990] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:50:33.806873 2016] [mpm_event:notice] [pid 226:tid 139899619325824] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 17:50:36.352992 2016] [lbmethod_heartbeat:notice] [pid 330:tid 140369267554176] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 17:50:36.356214 2016] [mpm_event:notice] [pid 330:tid 140369267554176] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 17:50:36.360709 2016] [core:notice] [pid 330:tid 140369267554176] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 17:50:40.972186 2016] [wsgi:error] [pid 332:tid 140368926406400] [client 192.168.99.1:60104] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:50:43.391942 2016] [wsgi:error] [pid 333:tid 140368926406400] [client 192.168.99.1:60107] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:50:56.708378 2016] [wsgi:error] [pid 433:tid 140369010333440] [client 192.168.99.1:60109] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:51:57.980186 2016] [mpm_event:notice] [pid 330:tid 140369267554176] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 17:52:02.250984 2016] [lbmethod_heartbeat:notice] [pid 462:tid 140490243573632] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 17:52:02.253496 2016] [mpm_event:notice] [pid 462:tid 140490243573632] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 17:52:02.259522 2016] [core:notice] [pid 462:tid 140490243573632] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 17:52:05.239558 2016] [wsgi:error] [pid 465:tid 140490106484480] [client 192.168.99.1:60114] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:52:07.750658 2016] [wsgi:error] [pid 465:tid 140489948899072] [client 192.168.99.1:60114] Target WSGI script not found or unable to stat: /srv/http/www/htdocs/hypnose
+[Mon Feb 22 17:53:20.897576 2016] [mpm_event:notice] [pid 462:tid 140490243573632] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 17:58:44.325845 2016] [lbmethod_heartbeat:notice] [pid 8:tid 140557956921216] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 17:58:44.362490 2016] [mpm_event:notice] [pid 8:tid 140557956921216] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 17:58:44.367070 2016] [core:notice] [pid 8:tid 140557956921216] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 17:59:59.714074 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379] mod_wsgi (pid=11): Target WSGI script '/srv/http/www/htdocs/djangoexample/wsgi.py' cannot be loaded as Python module.
+[Mon Feb 22 17:59:59.715468 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379] mod_wsgi (pid=11): Exception occurred processing WSGI script '/srv/http/www/htdocs/djangoexample/wsgi.py'.
+[Mon Feb 22 17:59:59.729625 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379] Traceback (most recent call last):
+[Mon Feb 22 17:59:59.733631 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "/srv/http/www/htdocs/djangoexample/wsgi.py", line 16, in <module>
+[Mon Feb 22 17:59:59.738945 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]     application = get_wsgi_application()
+[Mon Feb 22 17:59:59.743618 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "/usr/lib/python3.5/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Mon Feb 22 17:59:59.752260 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]     django.setup()
+[Mon Feb 22 17:59:59.759228 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "/usr/lib/python3.5/site-packages/django/__init__.py", line 17, in setup
+[Mon Feb 22 17:59:59.765562 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Mon Feb 22 17:59:59.771062 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 48, in __getattr__
+[Mon Feb 22 17:59:59.776354 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]     self._setup(name)
+[Mon Feb 22 17:59:59.780605 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 44, in _setup
+[Mon Feb 22 17:59:59.785265 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]     self._wrapped = Settings(settings_module)
+[Mon Feb 22 17:59:59.790035 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 92, in __init__
+[Mon Feb 22 17:59:59.794837 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Feb 22 17:59:59.799117 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Mon Feb 22 17:59:59.803302 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]     return _bootstrap._gcd_import(name[level:], package, level)
+[Mon Feb 22 17:59:59.808808 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Feb 22 17:59:59.814299 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Feb 22 17:59:59.819506 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Mon Feb 22 17:59:59.825016 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Mon Feb 22 17:59:59.834132 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Feb 22 17:59:59.840808 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Feb 22 17:59:59.847791 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Mon Feb 22 17:59:59.852348 2016] [wsgi:error] [pid 11:tid 140557619779328] [client 172.17.0.1:58379] ImportError: No module named 'djangoexample'
+[Mon Feb 22 18:03:52.797062 2016] [mpm_event:notice] [pid 8:tid 140557956921216] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 18:03:58.821679 2016] [lbmethod_heartbeat:notice] [pid 145:tid 139720656267136] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 18:03:58.823560 2016] [mpm_event:notice] [pid 145:tid 139720656267136] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 18:03:58.827650 2016] [core:notice] [pid 145:tid 139720656267136] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 18:04:07.055451 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383] mod_wsgi (pid=147): Target WSGI script '/srv/http/www/htdocs/djangoexample/wsgi.py' cannot be loaded as Python module.
+[Mon Feb 22 18:04:07.056584 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383] mod_wsgi (pid=147): Exception occurred processing WSGI script '/srv/http/www/htdocs/djangoexample/wsgi.py'.
+[Mon Feb 22 18:04:07.063371 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383] Traceback (most recent call last):
+[Mon Feb 22 18:04:07.067468 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "/srv/http/www/htdocs/djangoexample/wsgi.py", line 16, in <module>
+[Mon Feb 22 18:04:07.071865 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]     application = get_wsgi_application()
+[Mon Feb 22 18:04:07.076416 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "/usr/lib/python3.5/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Mon Feb 22 18:04:07.081043 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]     django.setup()
+[Mon Feb 22 18:04:07.085534 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "/usr/lib/python3.5/site-packages/django/__init__.py", line 17, in setup
+[Mon Feb 22 18:04:07.089126 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Mon Feb 22 18:04:07.093363 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 48, in __getattr__
+[Mon Feb 22 18:04:07.096905 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]     self._setup(name)
+[Mon Feb 22 18:04:07.101293 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 44, in _setup
+[Mon Feb 22 18:04:07.105178 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]     self._wrapped = Settings(settings_module)
+[Mon Feb 22 18:04:07.109915 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 92, in __init__
+[Mon Feb 22 18:04:07.113642 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Feb 22 18:04:07.117428 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Mon Feb 22 18:04:07.122122 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]     return _bootstrap._gcd_import(name[level:], package, level)
+[Mon Feb 22 18:04:07.126636 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Feb 22 18:04:07.130472 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Feb 22 18:04:07.134315 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Mon Feb 22 18:04:07.137266 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Mon Feb 22 18:04:07.140642 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Feb 22 18:04:07.143986 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Feb 22 18:04:07.148804 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Mon Feb 22 18:04:07.153396 2016] [wsgi:error] [pid 147:tid 139720361232128] [client 172.17.0.1:58383] ImportError: No module named 'djangoexample'
+[Mon Feb 22 18:05:09.901687 2016] [mpm_event:notice] [pid 145:tid 139720656267136] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 18:12:53.198075 2016] [lbmethod_heartbeat:notice] [pid 284:tid 140351712282496] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 18:12:53.201826 2016] [mpm_event:notice] [pid 284:tid 140351712282496] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 18:12:53.205117 2016] [core:notice] [pid 284:tid 140351712282496] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 18:13:01.504677 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387] mod_wsgi (pid=288): Target WSGI script '/srv/http/www/htdocs/djangoexample/wsgi.py' cannot be loaded as Python module.
+[Mon Feb 22 18:13:01.506037 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387] mod_wsgi (pid=288): Exception occurred processing WSGI script '/srv/http/www/htdocs/djangoexample/wsgi.py'.
+[Mon Feb 22 18:13:01.513075 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387] Traceback (most recent call last):
+[Mon Feb 22 18:13:01.516542 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "/srv/http/www/htdocs/djangoexample/wsgi.py", line 16, in <module>
+[Mon Feb 22 18:13:01.520688 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]     application = get_wsgi_application()
+[Mon Feb 22 18:13:01.524438 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "/usr/lib/python3.5/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Mon Feb 22 18:13:01.528607 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]     django.setup()
+[Mon Feb 22 18:13:01.533249 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "/usr/lib/python3.5/site-packages/django/__init__.py", line 17, in setup
+[Mon Feb 22 18:13:01.538293 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Mon Feb 22 18:13:01.542711 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 48, in __getattr__
+[Mon Feb 22 18:13:01.546781 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]     self._setup(name)
+[Mon Feb 22 18:13:01.552928 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 44, in _setup
+[Mon Feb 22 18:13:01.557771 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]     self._wrapped = Settings(settings_module)
+[Mon Feb 22 18:13:01.562468 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 92, in __init__
+[Mon Feb 22 18:13:01.565918 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Feb 22 18:13:01.569469 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Mon Feb 22 18:13:01.572345 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]     return _bootstrap._gcd_import(name[level:], package, level)
+[Mon Feb 22 18:13:01.575589 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Feb 22 18:13:01.579192 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Feb 22 18:13:01.582662 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Mon Feb 22 18:13:01.585495 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Mon Feb 22 18:13:01.588210 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Feb 22 18:13:01.591081 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Feb 22 18:13:01.593310 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Mon Feb 22 18:13:01.596214 2016] [wsgi:error] [pid 288:tid 140351419418368] [client 172.17.0.1:58387] ImportError: No module named 'djangoexample'
+[Mon Feb 22 18:13:20.782276 2016] [mpm_event:notice] [pid 284:tid 140351712282496] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 18:13:22.780436 2016] [lbmethod_heartbeat:notice] [pid 417:tid 140041350723456] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 18:13:22.782161 2016] [mpm_event:notice] [pid 417:tid 140041350723456] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 18:13:22.785698 2016] [core:notice] [pid 417:tid 140041350723456] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 18:13:30.538703 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391] mod_wsgi (pid=419): Target WSGI script '/srv/http/www/htdocs/djangoexample/wsgi.py' cannot be loaded as Python module.
+[Mon Feb 22 18:13:30.539350 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391] mod_wsgi (pid=419): Exception occurred processing WSGI script '/srv/http/www/htdocs/djangoexample/wsgi.py'.
+[Mon Feb 22 18:13:30.546210 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391] Traceback (most recent call last):
+[Mon Feb 22 18:13:30.549674 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "/srv/http/www/htdocs/djangoexample/wsgi.py", line 16, in <module>
+[Mon Feb 22 18:13:30.553194 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]     application = get_wsgi_application()
+[Mon Feb 22 18:13:30.557575 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "/usr/lib/python3.5/site-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Mon Feb 22 18:13:30.562963 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]     django.setup()
+[Mon Feb 22 18:13:30.567078 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "/usr/lib/python3.5/site-packages/django/__init__.py", line 17, in setup
+[Mon Feb 22 18:13:30.571285 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Mon Feb 22 18:13:30.574858 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 48, in __getattr__
+[Mon Feb 22 18:13:30.578873 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]     self._setup(name)
+[Mon Feb 22 18:13:30.583384 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 44, in _setup
+[Mon Feb 22 18:13:30.587946 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]     self._wrapped = Settings(settings_module)
+[Mon Feb 22 18:13:30.592186 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "/usr/lib/python3.5/site-packages/django/conf/__init__.py", line 92, in __init__
+[Mon Feb 22 18:13:30.596253 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Feb 22 18:13:30.600298 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Mon Feb 22 18:13:30.603871 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]     return _bootstrap._gcd_import(name[level:], package, level)
+[Mon Feb 22 18:13:30.607747 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Feb 22 18:13:30.611635 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Feb 22 18:13:30.615436 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Mon Feb 22 18:13:30.619245 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Mon Feb 22 18:13:30.622981 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Feb 22 18:13:30.626413 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Feb 22 18:13:30.630351 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Mon Feb 22 18:13:30.633889 2016] [wsgi:error] [pid 419:tid 140041024136960] [client 172.17.0.1:58391] ImportError: No module named 'djangoexample'
+[Mon Feb 22 18:31:28.605601 2016] [mpm_event:notice] [pid 417:tid 140041350723456] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 18:31:37.787782 2016] [lbmethod_heartbeat:notice] [pid 522:tid 140231291287424] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 18:31:37.790102 2016] [mpm_event:notice] [pid 522:tid 140231291287424] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 18:31:37.791580 2016] [core:notice] [pid 522:tid 140231291287424] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 18:38:01.975686 2016] [mpm_event:notice] [pid 522:tid 140231291287424] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 18:38:05.540423 2016] [lbmethod_heartbeat:notice] [pid 656:tid 140654696060800] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 18:38:05.542828 2016] [mpm_event:notice] [pid 656:tid 140654696060800] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 18:38:05.550273 2016] [core:notice] [pid 656:tid 140654696060800] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 18:40:00.134110 2016] [mpm_event:notice] [pid 656:tid 140654696060800] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 18:40:02.687130 2016] [lbmethod_heartbeat:notice] [pid 790:tid 139792764426112] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 18:40:02.689409 2016] [mpm_event:notice] [pid 790:tid 139792764426112] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 18:40:02.691092 2016] [core:notice] [pid 790:tid 139792764426112] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 18:41:48.760365 2016] [mpm_event:notice] [pid 790:tid 139792764426112] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 18:41:53.302102 2016] [lbmethod_heartbeat:notice] [pid 930:tid 140116913031040] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 18:41:53.304329 2016] [mpm_event:notice] [pid 930:tid 140116913031040] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 18:41:53.306344 2016] [core:notice] [pid 930:tid 140116913031040] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Feb 22 18:42:29.974639 2016] [mpm_event:notice] [pid 930:tid 140116913031040] AH00491: caught SIGTERM, shutting down
+[Mon Feb 22 18:44:40.766242 2016] [lbmethod_heartbeat:notice] [pid 7:tid 140144695879552] AH02282: No slotmem from mod_heartmonitor
+[Mon Feb 22 18:44:40.792019 2016] [mpm_event:notice] [pid 7:tid 140144695879552] AH00489: Apache/2.4.18 (Unix) mod_wsgi/4.4.23 Python/3.5.1 configured -- resuming normal operations
+[Mon Feb 22 18:44:40.793236 2016] [core:notice] [pid 7:tid 140144695879552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
