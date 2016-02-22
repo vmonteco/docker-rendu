@@ -27,3 +27,5 @@ docker-machine ssh $MACHINE "sudo umount $IMAGE; sudo rmdir /$IMAGE"
 docker-machine stop $MACHINE
 
 VBoxManage sharedfolder remove default --name $IMAGE
+
+docker-machine start $MACHINE

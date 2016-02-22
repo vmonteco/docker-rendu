@@ -73,8 +73,9 @@ docker-machine ssh default "sudo touch $DBOUT"
 docker-machine ssh default "sudo mkdir -p $LOGSOUT"
 
 
-CMD="docker run $DEFAULT $OTHER $PORTS $VOLUMES $IMAGENAME"
+CMD="docker run $DEFAULT $OTHER $PORTS $VOLUMES $IMAGENAME zsh"
 
 # Running site :
 echo $CMD
+docker-machine status default
 $CMD
