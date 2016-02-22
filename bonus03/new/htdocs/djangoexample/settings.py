@@ -56,7 +56,7 @@ ROOT_URLCONF = 'djangoexample.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["templates", ],
+        'DIRS': ["templates", os.path.join(BASE_DIR, "templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'djangoexample.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(os.path.join(os.path.dirname(BASE_DIR), "data"), 'db.sqlite3'),
     }
 }
 
