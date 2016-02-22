@@ -1,0 +1,18 @@
+FROM python
+MAINTAINER Vincent Montecot <vmonteco@student.42.fr>
+
+COPY ./djangoexample/requirements.txt /requirements.txt
+RUN pip install -r /requirements.tt
+
+RUN rm /requirements.txt
+
+RUN git clone https://github.com/GrahamDumpleton/mod_wsgi.git
+RUN cd mod_wsgi && ./configure --with-python=$(which python) &&  make && make install
+RUN cd && rm -rf /mod_wsgi
+
+# PORTS :
+EXPOSE 80
+
+# Volumes :
+# logs :
+VOLUME /srv/http/www/logs
