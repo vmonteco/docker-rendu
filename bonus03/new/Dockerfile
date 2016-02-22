@@ -19,7 +19,7 @@ RUN pacman-db-upgrade
 RUN pacman -Suy --noconfirm
 RUN pacman-db-upgrade 
 RUN pacman -Suy --noconfirm base base-devel python3 python-pip apache sqlite3 \
-	git libjpeg-turbo zsh
+	git libjpeg-turbo zsh emacs
 
 
 # Copying requirements.txt

@@ -1,17 +1,19 @@
 #!/bin/sh
 
+set -x
+
 NAME=$1
 
-IMAGENAME=hypnose
+IMAGENAME=$NAME
 
 # Base directories :
 BASEIN="/srv/http/www"
-BASEOUT=$(pwd)
+BASEOUT=/$IMAGENAME
 
 echo $BASEOUT
 
 # Container ports :
-PORTS="-p 10080:80"
+PORTS="-p 10081:80"
 # PORTS=""
 
 # Database :
@@ -20,13 +22,9 @@ DBIN=$DBINDIR"/db.sqlite3"
 DBOUTDIR=$BASEOUT"/data"
 DBOUT=$DBOUTDIR"/db.sqlite3"
 
-# other files
-#EXTIN=$BASEIN"/ext"
-#EXTOUT=$BASEOUT"/ext"
-
-# Media files :
-MEDIAOUT=$BASEOUT"/media"
+# Media files
 MEDIAIN=$BASEIN"/media"
+MEDIAOUT=$BASEOUT"/media"
 
 # SRC :
 SRCIN=$BASEIN"/htdocs"
@@ -49,11 +47,11 @@ LOGSOUT=$BASEOUT"/logs"
 CONFVOL="-v $CONFOUT:$CONFIN"
 LOGSVOL="-v $LOGSOUT:$LOGSIN"
 #VOLUMES=$DBVOL $SRCVOL $CONFVOL
-DBVOL="-v $DBOUT:$DBIN"
+BASEVOL="-v $BASEOUT:$BASEIN"
 SRCVOL="-v $SRCOUT:$SRCIN"
+DBVOL="-v $DBOUT:$DBIN"
 MEDIAVOL="-v $MEDIAOUT:$MEDIAIN"
-#EXTVOL="-v $EXTOUT:$EXTIN"
-VOLUMES="$CONFVOL $SRCVOL $LOGSVOL $DBVOL $MEDIAVOL $EXTVOL"
+VOLUMES="$CONFVOL $SRCVOL $LOGSVOL $DBVOL $MEDIAVOL"
 # Other options :
 OTHER=" --net=host --name $1"
 OTHER="--name $1"
@@ -63,19 +61,21 @@ SHELL="--rm -ti"
 DAEMON="-d"
 # Default
 DEFAULT=$DAEMON
-#DEFAULT=$SHELL
+DEFAULT=$SHELL
 
 # Building docker image.
 #docker build -t $NAME .
 
 # creating files if it doesn't exist.
-mkdir -p $DBOUTDIR
-touch $DBOUT
-mkdir -p $LOGSOUT
+echo "toto"
+docker-machine ssh default "sudo mkdir -p $DBOUTDIR"
+docker-machine ssh default "sudo touch $DBOUT"
+docker-machine ssh default "sudo mkdir -p $LOGSOUT"
 
 
-CMD="docker run $DEFAULT $OTHER $PORTS $VOLUMES $IMAGENAME"
+CMD="docker run $DEFAULT $OTHER $PORTS $VOLUMES $IMAGENAME zsh"
 
 # Running site :
 echo $CMD
+docker-machine status default
 $CMD
