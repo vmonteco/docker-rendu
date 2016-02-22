@@ -50,3 +50,8 @@ docker-machine ssh $MACHINE "sudo umount /share; sudo rmdir /share"
 echo "Shutting docker-machine down."
 docker-machine stop $MACHINE
 echo "docker-machine is now down."
+
+# rm shared dir in VM
+echo "removing shared dir in VM"
+VBoxManage sharedfolder remove default --name share
+echo "shared dir in VM removed"
