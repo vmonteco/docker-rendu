@@ -14,10 +14,13 @@ fi
 VBoxManage sharedfolder add $MACHINE --name $IMAGE --hostpath $SHAREDIR
 
 docker-machine start $MACHINE
-docker-machine ssh $MACHINE "sudo mkdir /$IMAGE; sudo mount -t vboxsf $IMAGE /IMAGE"
+docker-machine ssh $MACHINE "sudo mkdir /$IMAGE; sudo mount -t vboxsf $IMAGE /$IMAGE"
+docker-machine ssh $MACHINE
 
 ./build.sh $IMAGE
 ./launch-preprod.sh $IMAGE
+
+docker-machine ssh $MACHINE
 
 docker-machine ssh $MACHINE "sudo umount $IMAGE; sudo rmdir /$IMAGE"
 

@@ -61,15 +61,16 @@ SHELL="--rm -ti"
 DAEMON="-d"
 # Default
 DEFAULT=$DAEMON
-#DEFAULT=$SHELL
+DEFAULT=$SHELL
 
 # Building docker image.
 #docker build -t $NAME .
 
 # creating files if it doesn't exist.
-mkdir -p $DBOUTDIR
-touch $DBOUT
-mkdir -p $LOGSOUT
+echo "toto"
+docker-machine ssh default "sudo mkdir -p $DBOUTDIR"
+docker-machine ssh default "sudo touch $DBOUT"
+docker-machine ssh default "sudo mkdir -p $LOGSOUT"
 
 
 CMD="docker run $DEFAULT $OTHER $PORTS $VOLUMES $IMAGENAME"
