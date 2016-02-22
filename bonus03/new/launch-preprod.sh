@@ -2,12 +2,11 @@
 
 NAME=$1
 
-IMAGENAME=bonus03
+IMAGENAME=$NAME
 
 # Base directories :
 BASEIN="/srv/http/www"
-BASEVM=/$IMAGENAME
-BASEOUT=$(pwd)
+BASEOUT=/$IMAGENAME
 
 echo $BASEVM
 
